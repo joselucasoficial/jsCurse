@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>CFB Cursos</p>
+    <p>Cursos de Javascipt</p>
+    <p>Aula 25</p>
+    <p>www.youtube.com/cfbcursos</p>
+    <p>cfbcursos.com.br</p>
+
+    <hr/>
+
+</body>
+    <!--com getElementsByTagName conseguimos mudar qualquer tag do HTML, modificar estilos cores e tamanhos.-->
+    <script>
+        var tagsP = document.getElementsByTagName("p")
+
+        tagsP[2].innerHTML="mudei"
+        tagsP[2].style.fontSize="1.3rem"
+        tagsP[2].style.color="#f00"
+
+    </script>
+</html>
