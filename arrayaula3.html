@@ -12,16 +12,41 @@
 
     <script>
         
-        var caixa = [], pos
+        var caixa = []
+        var pos
+        var num = [3, 4, 2, 6, 7, 8, 9, 0, 1, 5 ]
+        var numeros
 
-        caixa.push("fenda")
+        num.sort()// ordena por ordem crescente
+        num.reverse()// ordena na ordem decrescente
+
+        numeros=num.join() // join atribui todos elementos em uma var em forma de strings
+        document.write(numeros+'<br>')
+
+        document.write(num[0]+ '<br>')
+        document.write(num[1]+ '<br>')
+        document.write(num[2]+ '<br>')
+        document.write(num[3]+ '<br>')
+        document.write(num[4]+ '<br>')
+        document.write(num[5]+ '<br>')
+        document.write(num[6]+ '<br>')
+        document.write(num[7]+ '<br>')
+        document.write(num[8]+ '<br>')
+        document.write(num[9]+ '<br>')
+
+        /*caixa.push("fenda")
         caixa.push("philips")
         caixa.push("alicate")
         caixa.push("fita")
         caixa.push("chave 10") // push insere ao final do array
         caixa.push("chave 13")
 
-        pos*caixa.indexOf()
+        pos=caixa.indexOf('fita')
         
+        if(pos < 0 ){
+            document.write("item nao esta aqui")
+        }else {
+            document.write('O item:'+ caixa[pos] +' esta aqui na posição: '+ pos)
+        }*/
     </script>
 </html>
