@@ -15,12 +15,19 @@
         <input type="password" name="FPass" value="123">
         <input type="submit" name="btPush" value="Push"> 
     </form>
+    <form name="curse2" id="curse2" action="#" method="post">
+        <label>Name</label>
+        <input type="text" name='fName' id="test" value="tw - 2"> 
+        <label>Senha</label>
+        <input type="password" name="FPass" value="123">
+        <input type="submit" name="btPush" value="Push"> 
+    </form>
 
     <hr>
     
 </body>
     <script>
-        var fm = document.forms.length
+        var fm = document.forms[0].id
         document.write(fm)
     </script>
 </html>
